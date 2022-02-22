@@ -7,4 +7,4 @@
   :main ^:skip-aot farmers-market.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all
-                       :jvm-opts ["-Dclojure.compiler.direct-linking=true"]}})
+                       :jvm-opts ["-D clojure.compiler.direct-linking=true"]}})
